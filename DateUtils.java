@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class DateUtils {
 	/**
-	 * 
+	 * 获取当前时间的前n天的日期时间
 	 * @param currentDate
 	 *            当前日期对象
 	 * @param n
@@ -25,7 +25,7 @@ public class DateUtils {
 	}
 
 	/**
-	 * 
+	 * 获取当前时间的后n天的日期时间
 	 * @param currentDate
 	 *            当前日期对象
 	 * @param n
@@ -45,7 +45,7 @@ public class DateUtils {
 	}
 
 	/**
-	 * 
+	 * 将日期对象Date转换成特定的字符串
 	 * @param date
 	 *            要被格式化的日期对象
 	 * @param format
@@ -59,7 +59,7 @@ public class DateUtils {
 	}
 
 	/**
-	 * 
+	 * 将日期字符串转换成日期对象Date
 	 * @param dateStr
 	 *            日期字符串
 	 * @param format
@@ -74,7 +74,7 @@ public class DateUtils {
 	}
 
 	/**
-	 * 
+	 * 求出你来到这个世界多少天
 	 * @param birthDateStr
 	 *            出生日期字符串形式，必须写成如2000-01-23的形式
 	 * @param format
