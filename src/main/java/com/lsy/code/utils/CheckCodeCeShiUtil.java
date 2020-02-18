@@ -69,8 +69,8 @@ public class CheckCodeCeShiUtil {
 				//String compMin = test.imageToBase64(ddMin,"png");//调用 图片转64位字符串的方法		返回给前端用
 				
 				//输出图片到本地D盘下
-				ImageIO.write(dd, "jpg", new File("d:\\test.png"));
-				ImageIO.write(ddMin, "jpg", new File("d:\\test1.png"));
+				ImageIO.write(dd, "jpg", new File("f:\\test.png"));
+				ImageIO.write(ddMin, "jpg", new File("f:\\test1.png"));
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -85,7 +85,7 @@ public class CheckCodeCeShiUtil {
 
 private BufferedImage Images()throws Exception {
 	
-		String path = "d:/check";// 图片路径
+		String path = "f:/check";// 图片路径
 		Random rand = new Random(); //定义随机数
 		Integer r= rand.nextInt(Integer.valueOf("6")); //获得随机下标,如果改位置的图片总数为6，为了方便随机取图片，图片为名字1~6.png
 		path=path+"/"+r.toString()+".png"; //拼接路径
