@@ -15,7 +15,3 @@
 # StringUtils
 - 判断字符串为空
 - 判断字符串不为空
-
-#XStreamUtils
-- xStream ：将java对象映射成一段xml，也可以将一段xml映射成一个java对象
-- xStream reference to  http://x-stream.github.io/
