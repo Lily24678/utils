@@ -47,7 +47,7 @@ public class Person {
 
 	@Override
 	public String toString() {
-		return "firstname:"+this.firstname+";lastname:"+this.lastname+";phone:"+this.phone+";fax:"+this.fax;
+		return "{firstname:"+this.firstname+",lastname:"+this.lastname+",{phone:"+this.phone+"},{fax:"+this.fax+"}}";
 	}
 
 	
