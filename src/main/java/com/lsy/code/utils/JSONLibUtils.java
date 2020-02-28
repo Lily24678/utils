@@ -29,7 +29,7 @@ public class JSONLibUtils {
 		JSONObject jsonObject = JSONObject.fromObject(map);
 		System.out.println(jsonObject.toString());
 		
-		//XML covert to JSON ：使用JSONLIB的XMLSerializer需依赖 xom-1.3.4.jar 
+		//XML covert to JSON ：使用JSONLIB的XMLSerializer需添加依赖 xom
 		XMLSerializer xmlSerializer = new XMLSerializer();
 		JSON json = xmlSerializer.read(xml);
 		System.out.println(json.toString());
