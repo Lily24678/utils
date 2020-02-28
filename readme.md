@@ -19,3 +19,8 @@
 #XStreamUtils
 - xStream ：将java对象映射成一段xml，也可以将一段xml映射成一个java对象
 - xStream reference to  http://x-stream.github.io/
+
+#JSONLibUtils
+- 数组或List集合转成JSON.
+- 对象或Map集合转成JSON.
+- XML转成JSON.
