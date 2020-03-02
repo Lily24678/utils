@@ -17,10 +17,12 @@
 - 判断字符串不为空
 
 #XStreamUtils
+- http://x-stream.github.io/
 - xStream ：将java对象映射成一段xml，也可以将一段xml映射成一个java对象
-- xStream reference to  http://x-stream.github.io/
 
 #JSONLibUtils
+- http://json-lib.sourceforge.net/
 - 数组或List集合转成JSON.
 - 对象或Map集合转成JSON.
 - XML转成JSON.
+- JSON转成对象或者XML
