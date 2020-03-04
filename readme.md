@@ -26,3 +26,6 @@
 - 对象或Map集合转成JSON.
 - XML转成JSON.
 - JSON转成对象或者XML
+
+#EncryDecryUtils
+- MD5加密

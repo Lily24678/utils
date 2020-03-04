@@ -49,7 +49,7 @@ public class JSONLibUtils {
 		//JSON convert to XML
 //		JSONObject json1 = JSONObject.fromObject("{\"name\":\"json\",\"bool\":true,\"int\":1}");  
 		JSONArray json1 = JSONArray.fromObject("[1,2,3]");  
-		String xml2 = xmlSerializer.write(jsonObject);
+		String xml2 = xmlSerializer.write(json1);
 		System.out.println(xml2);
 	}
 
