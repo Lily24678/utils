@@ -3,8 +3,8 @@ package com.lsy.code.utils;
 import java.io.IOException;
 import java.util.List;
 
-import com.lsy.code.assist.CreateDataUtils;
-import com.lsy.code.bean.Person;
+import com.lsy.code.utils.assist.CreateDataUtils;
+import com.lsy.code.utils.bean.Person;
 import com.thoughtworks.xstream.XStream;
 
 /**

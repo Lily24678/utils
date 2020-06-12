@@ -1,12 +1,12 @@
-package com.lsy.code.assist;
+package com.lsy.code.utils.assist;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.lsy.code.bean.Person;
-import com.lsy.code.bean.PhoneNumber;
+import com.lsy.code.utils.bean.Person;
+import com.lsy.code.utils.bean.PhoneNumber;
 import com.thoughtworks.xstream.XStream;
 	
 public class CreateDataUtils {

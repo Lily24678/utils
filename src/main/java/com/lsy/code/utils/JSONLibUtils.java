@@ -5,8 +5,8 @@ import java.util.Map;
 
 import org.apache.commons.beanutils.PropertyUtils;
 
-import com.lsy.code.assist.CreateDataUtils;
-import com.lsy.code.bean.Person;
+import com.lsy.code.utils.assist.CreateDataUtils;
+import com.lsy.code.utils.bean.Person;
 
 import net.sf.json.JSON;
 import net.sf.json.JSONArray;

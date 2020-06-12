@@ -1,4 +1,4 @@
-package com.lsy.code.bean;
+package com.lsy.code.utils.bean;
 
 public class PhoneNumber {
 	private int code;
