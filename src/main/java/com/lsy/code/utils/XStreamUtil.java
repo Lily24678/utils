@@ -11,7 +11,7 @@ import com.thoughtworks.xstream.XStream;
  * 工具：XStream
  * 将java对象映射成一段xml，也可以将一段xml映射成一个java对象
  */
-public class XStreamUtils {
+public class XStreamUtil {
 
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) throws IOException {

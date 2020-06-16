@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
-public class FileUtils {
+public class FileUtil {
 
 	/**
 	 * 压缩多个文件到压缩包
@@ -57,6 +57,6 @@ public class FileUtils {
 		List<String> pathList = new ArrayList<String>() ;
 		pathList.add("F:/莎啦啦.mp3");
 		pathList.add("F:/云烟成雨.mp3");
-		FileUtils.downFilesToZip(pathList, "F:/test.zip");		
+		FileUtil.downFilesToZip(pathList, "F:/test.zip");		
 	}
 }

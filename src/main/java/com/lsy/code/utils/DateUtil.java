@@ -4,7 +4,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class DateUtils {
+public class DateUtil {
 	/**
 	 * 获取当前时间的前n天的日期时间
 	 * 

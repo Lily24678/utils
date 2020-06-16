@@ -1,6 +1,6 @@
 package com.lsy.code.utils;
 
-public class StringUtils {
+public class StringUtil {
 	/**
 	 * 判断字符串为空
 	 * @param str

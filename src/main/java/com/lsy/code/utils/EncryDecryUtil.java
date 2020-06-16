@@ -7,7 +7,7 @@ import com.thoughtworks.xstream.core.util.Base64Encoder;
 /**
  * 加解密工具
  */
-public class EncryDecryUtils {
+public class EncryDecryUtil {
 
 	public static String getMD5(String str) {
 		String newstr="";

@@ -16,7 +16,7 @@ import net.sf.json.xml.XMLSerializer;
 /**
  * 工具：JSONLIB
  */
-public class JSONLibUtils {
+public class JSONLibUtil {
 
 	public static void main(String[] args) throws Exception {
 		List<Person> list = CreateDataUtils.createListPerson();
