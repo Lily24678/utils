@@ -30,6 +30,9 @@
 #EncryDecryUtil
 - MD5加密
 
+#BigDecimalUtil
+- 使用传统的 +、-、*、/ 等算术运算符直接对其对象进行数学运算,存在精度丢失问题
+- 在使用 BigDecimal 时，使用它的 BigDecimal(String) 构造器创建对象才有意义。其他的如 BigDecimal b = new BigDecimal(1) 这种，还是会发生精度丢失的问题
 
 #其他工具
 - 测试工具软件（ https://jmeter.apache.org/）：JMETER
