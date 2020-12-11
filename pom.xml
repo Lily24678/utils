@@ -34,6 +34,12 @@
 			<artifactId>xom</artifactId>
 			<version>1.3.4</version>
 		</dependency>
+		<!-- MailUtils -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4</version>
+		</dependency>
 	</dependencies>
 
 	<!-- 设置编译版本 -->
